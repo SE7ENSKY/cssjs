@@ -1,0 +1,41 @@
+{
+  "name": "cssjs",
+  "version": "0.0.0",
+  "description": "incubating",
+  "main": "lib/cssjs.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers coffee:coffee-script/register",
+    "prepublish": "coffee -o lib -c src/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SE7ENSKY/cssjs.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "cssjs"
+  ],
+  "author": "Ivan Kravchenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SE7ENSKY/cssjs/issues"
+  },
+  "homepage": "https://github.com/SE7ENSKY/cssjs",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coffee-script": "^1.8.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "commander": "^2.6.0",
+    "mkdirp": "^0.5.0",
+    "monocle": "^1.1.51"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "bin": {
+    "cssjs": "./bin/cssjs"
+  }
+}
