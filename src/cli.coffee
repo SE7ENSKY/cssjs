@@ -12,4 +12,6 @@ program
 
 program.parse process.argv
 
-cssjs "some input", any: "opts", go: "here"
+# cssjs "some input", any: "opts", go: "here"
+
+console.log "ToDo"
