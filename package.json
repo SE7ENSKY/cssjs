@@ -1,6 +1,6 @@
 {
   "name": "cssjs",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "incubating",
   "main": "lib/cssjs.js",
   "scripts": {
@@ -14,7 +14,9 @@
   "keywords": [
     "css",
     "js",
-    "cssjs"
+    "cssjs",
+    "preprocessor",
+    "postprocessor"
   ],
   "author": "Ivan Kravchenko",
   "license": "MIT",

@@ -1,0 +1,44 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f1f1f1;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+footer {
+	background-color: #f1f1f1;
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+aside {
+	background-color: #f1b7cc;
+	position: fixed;
+	left: 0;
+	width: 20%;
+	top: return $("header").height();
+	bottom: return $("footer").height();
+}
+
+body {
+	padding-top: return $("header").height();
+	padding-bottom: return $("footer").height();
+}
+
+main {
+	background-color: #a8c1d3;
+	margin-left: return $("aside").width() + 15;
+	min-height: function(){
+		return $(window).height() - $("header").height() - $("footer").height()
+	};
+}
