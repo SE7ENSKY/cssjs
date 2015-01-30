@@ -49,6 +49,7 @@ See more in `examples` folder. Note that `.css.js` and `.css.css` files are comp
 * extend interoperability (support pseudo selectors, ...)
 * write browser runtime that does not require preprocessor
 * make plugins for `grunt`, `gulp`, `verstat`, `docpad` and other task runners and static site builders
+* make plugins/integrations for `stylus`, `less`, `reworkcss` and other preprocessors
 
 ## Running tests
 PHP must be installed to run tests.
